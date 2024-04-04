@@ -16,7 +16,7 @@ Player.prototype.gainXP = function (xp) {
 };
 
 Player.prototype.describe = function () {
-    return `${this.name} is ${this.lvl} with ${this.points} experience points.`;
+    return `${this.name} is level ${this.lvl} with ${this.points} experience points.`;
 };
 
 const player1 = new Player("Bob");
